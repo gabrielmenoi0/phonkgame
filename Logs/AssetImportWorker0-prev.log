@@ -1,0 +1,473 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'pt' Physical Memory: 16262 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/MATHEUS/Desktop/PhonkGamev1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52545
+Successfully changed project path to: C:/Users/MATHEUS/Desktop/PhonkGamev1
+C:/Users/MATHEUS/Desktop/PhonkGamev1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 109.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/MATHEUS/Desktop/PhonkGamev1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c83)
+    Vendor:   NVIDIA
+    VRAM:     2995 MB
+    Driver:   31.0.15.2698
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009538 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 111.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.816 seconds
+Domain Reload Profiling:
+	ReloadAssembly (817ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (581ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (139ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (339ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (112ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008985 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\MATHEUS\Desktop\PhonkGamev1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\MATHEUS\Desktop\PhonkGamev1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.499 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1500ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1042ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (349ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (446ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (279ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3400 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (115.1 KB). Loaded Objects now: 3879.
+Memory consumption went from 136.2 MB to 136.0 MB.
+Total: 30.906600 ms (FindLiveObjects: 0.314800 ms CreateObjectMapping: 0.556400 ms MarkObjects: 29.854300 ms  DeleteObjects: 0.180100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 53131.452164 seconds.
+  path: Assets/JogoFase2.unity
+  artifactKey: Guid(a2ef198747b1a3341b98ba56da4918ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JogoFase2.unity using Guid(a2ef198747b1a3341b98ba56da4918ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b19afac4cc758341907b326a27f2c7c') in 0.082418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.707569 seconds.
+  path: Assets/JogoFase1.unity
+  artifactKey: Guid(2e1336748f3797f4798cf9e588e2620f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JogoFase1.unity using Guid(2e1336748f3797f4798cf9e588e2620f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1830f5f89a1c48ce91c08b2e8570fb87') in 0.009475 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007114 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\MATHEUS\Desktop\PhonkGamev1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\MATHEUS\Desktop\PhonkGamev1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.088 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2089ms)
+		BeginReloadAssembly (172ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1727ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (594ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (716ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (160ms)
+				ProcessInitializeOnLoadAttributes (440ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (82.9 KB). Loaded Objects now: 3882.
+Memory consumption went from 134.6 MB to 134.5 MB.
+Total: 5.986900 ms (FindLiveObjects: 0.345400 ms CreateObjectMapping: 0.204500 ms MarkObjects: 5.319100 ms  DeleteObjects: 0.116600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 820.041674 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games
+  artifactKey: Guid(d5374d25d25df7340a0284eced5bcfee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games using Guid(d5374d25d25df7340a0284eced5bcfee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc461daed03113f775bc2f917cc8fec1') in 0.020903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.845145 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins
+  artifactKey: Guid(bd11ba58bce719a428a4a916cfe681e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins using Guid(bd11ba58bce719a428a4a916cfe681e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0a79b430461fcaa8772a71198b8d82') in 0.014103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.742645 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/Documentation
+  artifactKey: Guid(e6906be0159d8e94c9ebb95d8b190ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/Documentation using Guid(e6906be0159d8e94c9ebb95d8b190ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfc4b26941bcbdb100c349199ebc7b6') in 0.010345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.467378 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/Scene
+  artifactKey: Guid(89900e6e369a10243993f1f441dd5319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/Scene using Guid(89900e6e369a10243993f1f441dd5319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88cd73ec92a3fb130a097fa80ece87ab') in 0.004237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.415206 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets
+  artifactKey: Guid(f440d3ea3c5057b42a019bccdb3229dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets using Guid(f440d3ea3c5057b42a019bccdb3229dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3494bea3382a8ceaf4f64a24a86ca7e') in 0.009865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055368 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Cold, Silver, Copper Coins.prefab
+  artifactKey: Guid(d65c5544ceb166e42ba2c0035400520e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Cold, Silver, Copper Coins.prefab using Guid(d65c5544ceb166e42ba2c0035400520e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f13b7e6dec1f0057a7f5bf8bb909658') in 0.215175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.527171 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coin - Single
+  artifactKey: Guid(e2f407958f973a94399a64a437e69909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coin - Single using Guid(e2f407958f973a94399a64a437e69909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55440a61ed23b6c3485a6a791fa14efa') in 0.010793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.931803 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coin - Single/Prefab
+  artifactKey: Guid(1df7c950f62ecce48822ba1a3720bb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coin - Single/Prefab using Guid(1df7c950f62ecce48822ba1a3720bb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ee8ae81299f14243848e3d5da7b9f2') in 0.011388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050309 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coin - Single/Prefab/SilverCoin.prefab
+  artifactKey: Guid(6cf803f17924190419a094e8c931bfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coin - Single/Prefab/SilverCoin.prefab using Guid(6cf803f17924190419a094e8c931bfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e5e24a5ffb52b443df6ac0381d4aed') in 0.021666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.750322 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coins
+  artifactKey: Guid(fd405979996c65d4d81c7da183d44369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Copper Coins using Guid(fd405979996c65d4d81c7da183d44369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41f6744026576daf82f5c5582232553') in 0.010256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.894635 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Gold Coin - Single
+  artifactKey: Guid(35959055546c8a3469881e48bd2ad7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Gold Coin - Single using Guid(35959055546c8a3469881e48bd2ad7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3810a3f289376ea3d85a8b0494b2e86e') in 0.010866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.550816 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Gold Coin - Single/Prefab
+  artifactKey: Guid(c968d11302453e347b259ffb165f6019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Gold Coin - Single/Prefab using Guid(c968d11302453e347b259ffb165f6019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed04a265aa4aff6d441c038d08242eb') in 0.003344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023856 seconds.
+  path: Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Gold Coin - Single/Prefab/GoldCoin.prefab
+  artifactKey: Guid(fa2c57d3f28a5e6419393e8bc3eeb32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Package 4 - BSH games/Devtoid - Gold Coins/3D Assets/Gold Coin - Single/Prefab/GoldCoin.prefab using Guid(fa2c57d3f28a5e6419393e8bc3eeb32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8445fa7ca1e981895123e502b8ba4a') in 0.018866 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008565 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\MATHEUS\Desktop\PhonkGamev1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\MATHEUS\Desktop\PhonkGamev1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.473 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2474ms)
+		BeginReloadAssembly (179ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (2168ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (763ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (152ms)
+			SetupLoadedEditorAssemblies (937ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (210ms)
+				ProcessInitializeOnLoadAttributes (581ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (82.8 KB). Loaded Objects now: 3893.
+Memory consumption went from 141.0 MB to 140.9 MB.
+Total: 7.988300 ms (FindLiveObjects: 0.571300 ms CreateObjectMapping: 0.365800 ms MarkObjects: 6.922300 ms  DeleteObjects: 0.127500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014766 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\MATHEUS\Desktop\PhonkGamev1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\MATHEUS\Desktop\PhonkGamev1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.486 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2487ms)
+		BeginReloadAssembly (180ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (2178ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (722ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (1057ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (183ms)
+				ProcessInitializeOnLoadAttributes (669ms)
+				ProcessInitializeOnLoadMethodAttributes (146ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (82.7 KB). Loaded Objects now: 3896.
+Memory consumption went from 141.0 MB to 140.9 MB.
+Total: 7.607700 ms (FindLiveObjects: 0.561100 ms CreateObjectMapping: 0.609700 ms MarkObjects: 6.301400 ms  DeleteObjects: 0.134200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010979 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\MATHEUS\Desktop\PhonkGamev1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\MATHEUS\Desktop\PhonkGamev1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.544 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2545ms)
+		BeginReloadAssembly (206ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (2206ms)
+			LoadAssemblies (152ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (768ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (112ms)
+			SetupLoadedEditorAssemblies (896ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (190ms)
+				ProcessInitializeOnLoadAttributes (571ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (82.7 KB). Loaded Objects now: 3899.
+Memory consumption went from 141.0 MB to 140.9 MB.
+Total: 16.005600 ms (FindLiveObjects: 2.015200 ms CreateObjectMapping: 0.463600 ms MarkObjects: 13.390800 ms  DeleteObjects: 0.135100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
